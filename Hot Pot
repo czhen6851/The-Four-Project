@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+				.navbar {
+						margin-bottom: 0;
+						border-radius: 0;
+						}
+				.logo{
+						width:580px; 
+						height:360px;
+						}
+				p{
+						font-size:12pt;
+						}
+				h1{
+						font-size:17pt;
+						}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="file:///C:/Users/s1/Desktop/home.html">Home</a></li>
+	    <li><a href="file:///C:/Users/s1/Desktop/Kung%20Pao%20Chicken.html">Kung Pao chicken</a></li>
+		<li class="active"><a href="file:///C:/Users/s1/Desktop/Hot%20pot.html#">Hot pot</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Dim%20sum.html">Dim sum</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/DanDan%20N.html#">DanDan noodles</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/quiz.html">Quiz</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/about.html">About</a></li>
+			</ul>
+			</div>
+			</div>
+		</nav>
+		<div class="row">
+		<div class="col-md-6">
+		<h1>How to make the Perfect Hot Pot</h1><br>
+		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Equipment</button>
+		<div id="demo" class="collapse in">
+		<p>-If you’re going to have hot pot, you’re going to need a hot pot! For the fire portion, there are several ways you can go: induction, gas, or a two-in-one<br>
+		-Use a portable induction cooker with our favorite cast iron shallow brasier<br>
+		-Hot pot strainers<br>
+		-Shallow dishes to hold your sauces<br>
+		-Small bowls to eat out of<br>
+		-Several pairs of tongs<br>
+		-Chopsticks<br>
+		-A ladle, if you are going to finish on broth	
+		</p>
+		</div>
+		</div>
+		<div class="col-md-6">
+			<img class="logo" src="http://hiphotos.baidu.com/feed/pic/item/ac6eddc451da81cba0d882fb5e66d016092431cd.jpg">
+		</div>
+		<div class="col-md-6">
+		<table class="table">
+    <thead>
+      <tr>
+        <th>Steps</th>
+        <th>Direction</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Fill up the pot with water then boil it.After the water boils, put the soup packs down.Wash all the ingredients before the soup is ready.</td>
+        <td>Depends on the quantity of food</td>
+      </tr>
+	  <tr>
+	  <td>2</td>
+	  <td>Just put the food down and enjoy!</td>
+	  <td>Meat:10-15s;<br>
+	      Vegetables:3-4mins;<br>
+		  Seafood:>5mins</td>
+	  </tr>
+    </tbody>
+  </table>
+		</div>
+		</div>
+	</body>
+</html>

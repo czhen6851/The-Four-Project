@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+				.navbar {
+						margin-bottom: 0;
+						border-radius: 0;
+						}
+				.logo{
+						width:550px; 
+						height:300px;
+						}
+				p{
+						font-size:12pt;
+						}
+				h1{
+						font-size:17pt;
+						}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="file:///C:/Users/s1/Desktop/home.html">Home</a></li>
+	    <li><a href="file:///C:/Users/s1/Desktop/Kung%20Pao%20Chicken.html">Kung Pao chicken</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Hot%20pot.html#">Hot pot</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Dim%20sum.html">Dim sum</a></li>
+		<li class="active"><a href="file:///C:/Users/s1/Desktop/DanDan%20N.html#">DanDan noodles</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/quiz.html">Quiz</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/about.html">About</a></li>
+			</ul>
+			</div>
+			</div>
+		</nav>
+		<div class="row">
+		<div class="col-md-6">
+		<h1>How to make a good DanDan noodles</h1><br>
+		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Key Ingredients</button>
+		<div id="demo" class="collapse in">
+		<p>Ingredients:-Sui Mi Ya Cai<br>
+		-Homemade chili oil<br>
+		-Chinese sesame paste</p>
+		</div>
+		</div>
+		<div class="col-md-6">
+			<img class="logo" src="https://assets.marthastewart.com/styles/wmax-750/d27/dan-dan-noodles-034-d113087/dan-dan-noodles-034-d113087_horiz.jpg?itok=blJol3Nb">
+		</div>
+		<div class="col-md-6">
+		<table class="table">
+    <thead>
+      <tr>
+        <th>Steps</th>
+        <th>Direction</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Whisk sesame paste and light soy sauce until fully incorporated. Add Chinkiang vinegar. Keep stirring until mixed. Then mix in garlic, green onion, and honey.</td>
+        <td>30minutes</td>
+      </tr>
+	  <tr>
+	  <td>2</td>
+      <td>Add homemade chili oil, 1/3 cup at a time, mix and taste the sauce. Add more chili oil if you want more spiciness.</td>
+	  <td>30minutes</td>
+	  </tr>
+	  <tr>
+	  <td>3</td>
+      <td>Add toasted and ground Sichuan peppercorns, 1/2 teaspoon at a time. Taste while you mix, until you can taste the numbingness but can still handle it. The more chili oil you add, the more Sichuan peppercorns you need.</td>
+	  <td>90minutes</td>
+	  </tr>
+	  <tr>
+	  <td>4</td>
+      <td>Heat oil in a skillet or a wok over medium heat until hot. Add pork; cook and stir until the surface is cooked and the meat has turned white. Turn to medium-low heat. Add ginger, green onion, fermented black beans, Sui Mi Ya Cai, cooking wine, and sugar. Cook and stir until all the liquid has evaporated and the pork turns a dark brown color. Transfer to a bowl and set aside.</td>
+	  <td>90minutes</td>
+	  </tr>
+	  <tr>
+	  <td>5</td>
+      <td>Cook noodles according to instructions.</td>
+	  <td>90minutes</td>
+	  </tr>
+	  <tr>
+	  <td>6</td>
+      <td>Bring the chicken stock to a boil.</td>
+	  <td>90minutes</td>
+	  </tr>
+	  <tr>
+	  <td>7</td>
+      <td>Briefly blanch the green leafy vegetables, drain, and set aside.</td>
+	  <td>90minutes</td>
+	  </tr>
+	  <tr>
+	  <td>8</td>
+      <td>For each noodle bowl, ladle 1/4 cup heated chicken stock into the bowl. Add 1/4 cup noodle sauce and mix with the stock. Add noodles, top with a few spoonfuls of the cooked pork and some of the spinach. Garnish with peanut crumbles and chopped green onion. Sprinkle with a pinch of toasted ground Sichuan peppercorns, if you like the numbing taste.</td>
+	  <td>90minutes</td>
+	  </tr>
+	  <tr>
+	  <td>9</td>
+      <td>Serve hot or cold.</td>
+	  <td>90minutes</td>
+	  </tr>
+    </tbody>
+  </table>
+		</div>
+		</div>
+	</body>
+</html>

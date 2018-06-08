@@ -1,0 +1,172 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+				.navbar {
+						margin-bottom: 0;
+						border-radius: 0;
+						}
+				
+				.card{
+		
+						margin: auto;
+						width: 33%;
+						border: 3px solid #73AD21;
+						padding: 10px;
+						display:inline-block;
+						border-radius:10px;
+						box-shadow:black 5px 5px 5px;
+						background-color:white;
+						border-style: dashed black;
+						border-color:blue;
+						text-align: center;
+						background-repeat: no-repeat;
+						background-size: 450px 350px;
+					}
+		</style>
+	</head>
+	<body>
+	<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="file:///C:/Users/s1/Desktop/home.html">Home</a></li>
+	    <li><a href="file:///C:/Users/s1/Desktop/Kung%20Pao%20Chicken.html">Kung Pao chicken</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Hot%20pot.html#">Hot pot</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Dim%20sum.html">Dim sum</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/DanDan%20N.html#">DanDan noodles</a></li>
+		<li class="active"><a href="file:///C:/Users/s1/Desktop/quiz.html">Quiz</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/about.html">About</a></li>
+			</ul>
+			</div>
+			</div>
+		</nav>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+	<script type="text/template" id="template">
+		<div class="card">
+			<h1>Question:{{question}}</h1>
+			<p>A: {{choiceA}}</p>
+			<p>B: {{choiceB}}</p>
+			<p>C: {{choiceC}}</p>
+			<p>D: {{choiceD}}</p>
+			
+			<input type="text" id="{{ID}}" placeholder="PLEAS TYPE choice + capital A,B,C">
+		</div> <br>
+	</script>
+	<script>
+	var data;
+	function loadJSON(){
+		$.getJSON("https://ddaw-c899f.firebaseio.com/.json",function(results){
+			data=results;
+			displayData();
+		})
+	}
+	function displayData(){
+		var build="";
+
+		var output=document.getElementById("output");
+		var template=document.getElementById("template").innerHTML;
+		for(var key in data.QUIZ1){
+			build+=Mustache.render(template,data.QUIZ1[key]);
+			
+		}
+		for(var key in data.QUIZ2){
+			build+=Mustache.render(template,data.QUIZ2[key]);
+			
+		}
+		for(var key in data.QUIZ3){
+			build+=Mustache.render(template,data.QUIZ3[key]);
+			
+		}
+		for(var key in data.QUIZ4){
+			build+=Mustache.render(template,data.QUIZ4[key]);
+			
+		}
+		output.innerHTML=build;
+	}
+
+	function grade(){
+		var answerkey="";
+		var answer="";
+		var sum=0;
+		var build="";
+		var avg=0;
+		for(var key in data.QUIZ1){
+			answer=document.getElementById(key).value;
+			answerkey=data.QUIZ1[key].ANS;
+			if(answer==answerkey){
+				sum+=1
+				avg=(sum/12)*100
+				
+				build+=("question:" + key + "is right")+"<br>";
+			}else{
+				
+				build+=("question:" + key + "is wrong")+"<br>";
+				}
+		
+		}
+		for(var key in data.QUIZ2){
+			answer=document.getElementById(key).value;
+			answerkey=data.QUIZ2[key].ANS;
+			if(answer==answerkey){
+				sum+=1
+				avg=(sum/12)*100
+				
+				build+=("question:" + key + "is right")+"<br>";
+			}else{
+				
+				build+=("question:" + key + "is wrong")+"<br>";
+				}
+		
+		}
+		for(var key in data.QUIZ3){
+			answer=document.getElementById(key).value;
+			answerkey=data.QUIZ3[key].ANS;
+			if(answer==answerkey){
+				sum+=1
+				avg=(sum/12)*100
+				
+				build+=("question:" + key + "is right")+"<br>";
+			}else{
+				
+				build+=("question:" + key + "is wrong")+"<br>";
+				}
+		
+		}
+		for(var key in data.QUIZ4){
+			answer=document.getElementById(key).value;
+			answerkey=data.QUIZ4[key].ANS;
+			if(answer==answerkey){
+				sum+=1
+				avg=(sum/12)*100
+				
+				build+=("question:" + key + "is right")+"<br>";
+			}else{
+				
+				build+=("question:" + key + "is wrong")+"<br>";
+				}
+		
+		}
+		build+=("your score is: " + avg);
+		output.innerHTML=build;
+	}
+	</script>
+	
+	<body onload="loadJSON()">
+		<div id="output"></div>
+		<button onclick="grade()">!CHECK ANSWER!</button>
+	</body>
+</html>

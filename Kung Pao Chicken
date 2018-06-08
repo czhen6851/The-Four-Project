@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+				.navbar {
+						margin-bottom: 0;
+						border-radius: 0;
+						}
+				.logo{
+						width:465px; 
+						height:360px;
+						}
+				p{
+						font-size:12pt;
+						}
+				h1{
+						font-size:17pt;
+						}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="file:///C:/Users/s1/Desktop/home.html">Home</a></li>
+	    <li class="active"><a href="file:///C:/Users/s1/Desktop/Kung%20Pao%20Chicken.html">Kung Pao chicken</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Hot%20pot.html#">Hot pot</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Dim%20sum.html">Dim sum</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/DanDan%20N.html#">DanDan noodles</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/quiz.html">Quiz</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/about.html">About</a></li>
+			</ul>
+			</div>
+			</div>
+		</nav>
+		<div class="row">
+		<div class="col-md-6">
+		<h1>How to make the best Kung Pao Chicken</h1><br>
+		<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Ingredients</button>
+		<div id="demo" class="collapse in">
+		<p>Ingredients:-1 pound skinless<br> -boneless chicken breast halves - cut into chunks<br>-2 tablespoons white wine<br>-2 tablespoons soy sauce<br>-2 tablespoons sesame oil, divided<br>-2 tablespoons cornstarch, dissolved in 2 tablespoons water<br>-1 ounce hot chile paste<br>-1 teaspoon distilled white vinegar<br>-2 teaspoons brown sugar<br>-4 green onions, chopped1 tablespoon chopped garlic1 (8 ounce) can water chestnuts<br>-4 ounces chopped peanuts<br>
+		</p>
+		</div>
+		</div>
+		<div class="col-md-6">
+			<img class="logo" src="https://img.taste.com.au/-7KlOnpq/taste/2018/02/kung-pao-chicken-taste-135078-1.jpg">
+		</div>
+		<div class="col-md-6">
+		<table class="table">
+    <thead>
+      <tr>
+        <th>Steps</th>
+        <th>Direction</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>To Make Marinade: Combine 1 tablespoon wine, 1 tablespoon soy sauce, 1 tablespoon oil and 1 tablespoon cornstarch/water mixture and mix together. Place chicken pieces in a glass dish or bowl and add marinade. Toss to coat. Cover dish and place in refrigerator for about 30 minutes.</td>
+        <td>30minutes</td>
+      </tr>
+	  <tr>
+	  <td>2</td>
+	  <td>To Make Sauce: In a small bowl combine 1 tablespoon wine, 1 tablespoon soy sauce, 1 tablespoon oil, 1 tablespoon cornstarch/water mixture, chili paste, vinegar and sugar. Mix together and add green onion, garlic, water chestnuts and peanuts. In a medium skillet, heat sauce slowly until aromatic.</td>
+	  <td>30minutes</td>
+	  </tr>
+	  <tr>
+	  <td>3</td>
+	  <td>Meanwhile, remove chicken from marinade and saute in a large skillet until meat is white and juices run clear. When sauce is aromatic, add sauteed chicken to it and let simmer together until sauce thickens.</td>
+	  <td>90minutes</td>
+	  </tr>
+    </tbody>
+  </table>
+		</div>
+		</div>
+	</body>
+</html>

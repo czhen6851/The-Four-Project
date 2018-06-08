@@ -1,0 +1,206 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+				.navbar {
+						margin-bottom: 0;
+						border-radius: 0;
+						}
+				.logo{
+						width:760px; 
+						height:440px;
+						}
+				p{
+						font-size:12pt;
+						}
+				h1{
+						font-size:17pt;
+						}
+				.title{
+						text-align:center;
+						background-color:White;
+						color:black;
+						text-shadow:white 2px 2px 2px;
+						font-size:36pt
+						}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="file:///C:/Users/s1/Desktop/home.html">Home</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Kung%20Pao%20Chicken.html">Kung Pao chicken</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Hot%20pot.html#">Hot pot</a></li>
+		<li class="active"><a href="file:///C:/Users/s1/Desktop/Dim%20sum.html">Dim sum</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/DanDan%20N.html#">DanDan noodles</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/quiz.html">Quiz</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/about.html">About</a></li>
+			</ul>
+			</div>
+			</div>
+		</nav>
+		<div class="row">
+		<div class="col-md-6">
+		<h1>How to make Dim sum at home</h1><br>
+		<p>Traditionally, dim sum is meant to be enjoyed with a group, allowing you to sample a large number of items. But there is no reason you can't make your favorite dim sum dishes at home. Many dim sum items can be incorporated into a main meal – for example, dumplings can take the place of rice or noodles. Here are my favorite dim sum recipes. </p>
+		</div>
+		<div class="col-md-6">
+			<img class="logo" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1526681052532&di=79c1212b065233bf59f147eeb08da5ca&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fupload%2F20170804%2Fcbb440ad62064e7cbb4a8e34e1fc01a6_th.png">
+		</div>
+		<div class="col-md-12" style="background-color:white;">
+			<h1 class="title">Spring Roll & Pearl Ball</h1>
+			</div>
+		<div class="col-md-6">
+		    <img class="logo" src="https://fthmb.tqn.com/iZtHrc-X35y2L9Fc-EmQEVQIxI8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/136646423-56a143365f9b58b7d0bd9744.jpg">
+		</div>
+		<div class="col-md-6">
+		    <h2>Spring Roll</h2>
+		</div>
+		<div class="col-md-12">
+		<table class="table">
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Steps</th>
+		<th>Direction</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1/4 pound barbequed pork (purchase at Asian markets or make your own Chinese barbecued pork)<br>
+			3 dried black mushrooms<br>
+			1/2 cup mung bean sprouts<br>
+			1/2 medium carrot<br>
+			2 tablespoons chopped red bell pepper<br>
+			2 teaspoons dark soy sauce<br>
+			2 teaspoons oyster sauce<br>
+			2 tablespoons chicken broth<br>
+			1/2 teaspoon granulated sugar<br>
+			a few drops sesame oil, to taste<br>
+			2 tablespoons oil for stir-frying, or as needed<br>
+			12 spring roll wrappers<br>
+			1 lightly beaten egg, or 2 tablespoons cornstarch mixed with 1 tablespoon water<br>
+			3 cups oil for deep-frying, or as needed<br></td>
+        <td>1</td>
+        <td>Cut the barbecued pork into very thin strips. Soften the dried black mushrooms by soaking in hot water for 20 to 30 minutes. Squeeze out any excess water and finely chop.</td>
+      </tr>
+	  <tr>
+	  <td> </td>
+	  <td>2</td>
+	  <td>Rinse and drain the mung bean sprouts. Peel the carrot. Shred until you have 1/4 cup.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>3</td>
+	  <td>In a small bowl, combine the dark soy sauce, oyster sauce, chicken broth, granulated sugar and sesame oil. Set aside.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>4</td>
+	  <td>Heat a wok over medium-high to high heat. Add 2 tablespoons oil. When the oil is hot, add the barbecued pork. Stir-fry for 1 minute, then add the vegetables. Stir-fry for another minute, then push up to the side of the wok.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>5</td>
+	  <td>Add the sauce in the middle. Heat briefly, then mix in with the pork and vegetables. Remove the wok from the heat and allow the filling to cool.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>6</td>
+	  <td>Preheat the oil for deep-frying to 360 degrees Fahrenheit while preparing the spring rolls.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>7</td>
+	  <td>Lay a spring roll wrapper in front of you so that it forms a diamond shape. Use your index finger to wet all the edges with the beaten egg or cornstarch/water paste. Place approximately 2 tablespoons of filling near the bottom. Roll over once, tuck in the sides, and then continue rolling. Seal the top.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>8</td>
+	  <td>Deep-fry the spring rolls in 3 to 4 batches, cooking until they are golden brown and crispy (about 3 minutes). Remove with a slotted spoon and drain on paper towels.</td>
+	  </tr>
+	  </div>  
+    </tbody>
+  </table>
+  <div>
+     <img class="logo" src="https://fthmb.tqn.com/4A7gZw_xYByHn7uhantQjtmC_C4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chinese-style-glutinous-rice-ball-171243581-58344b0e3df78c6f6ae179bf.jpg";
+  </div>
+  <div>
+  <h2>
+  Pearl Balls
+  </h2>
+  </div>
+  <div class="col-md-12">
+		<table class="table">
+    <thead>
+      <tr>
+        <th>Ingredients</th>
+        <th>Steps</th>
+		<th>Direction</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3/4 cup glutinous rice (also called sweet or sticky rice, available at Chinese or Asian markets)<br>
+1 pound pork or ground pork<br>
+1 Large green onion (spring onion) minced (at least 3 tablespoons)<br>
+2 Water chestnuts, minced<br>
+1 Large egg white<br>
+1 tablespoonLight soy sauce<br>
+1 tablespoon dry sherry<br>
+1 teaspoon salt<br>
+Black pepper, to taste</td>
+        <td>1</td>
+        <td>Soak the glutinous rice in water for at least 6 to 8 hours (preferably overnight). Drain well in a sieve or colander. Spread out the rice on a baking sheet. Note: Drain and spread out the rice just before making the pearl balls, so that the rice doesn't dry out too much.</td>
+      </tr>
+	  <tr>
+	  <td> </td>
+	  <td>2</td>
+	  <td>Mince or grind the pork if not using ground pork.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>3</td>
+	  <td>In a large bowl, combine the pork, soy sauce, sherry, green onion, water chestnuts, salt, pepper, egg white, and cornstarch.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>4</td>
+	  <td>Prepare the steamer for steaming.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>5</td>
+	  <td>Take about 1 tablespoon of the ground pork mixture and form into a ball. Roll lightly over the glutinous rice and place on a heatproof plate. Continue with the rest of the pork mixture, placing the balls 1/2-inch apart. (You will need at least 2 plates).</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>6</td>
+	  <td>Place the plates in a steamer container or on a bamboo basket in a wok. Cover and steam the pearl balls over boiling water for between 25 to 35 minutes, until they are cooked through. Steam in two batches if needed.</td>
+	  </tr>
+	  <tr>
+	  <td> </td>
+	  <td>7</td>
+	  <td>Serve the pearl balls hot with soy sauce.</td>
+	  </tr>
+	 
+	  </div>  
+    </tbody>
+  </table>
+		</div>
+		</div>
+	</body>
+</html>

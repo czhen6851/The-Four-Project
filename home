@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The 4</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+  .carousel-inner img {
+
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }    
+  
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	
+	p{
+						font-size:20pt;
+						}
+	h3{
+						font-size:25pt;
+						}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="file:///C:/Users/s1/Desktop/home.html">Home</a></li>
+	    <li><a href="file:///C:/Users/s1/Desktop/Kung%20Pao%20Chicken.html">Kung Pao chicken</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Hot%20pot.html#">Hot pot</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/Dim%20sum.html">Dim sum</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/DanDan%20N.html#">DanDan noodles</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/quiz.html">Quiz</a></li>
+		<li><a href="file:///C:/Users/s1/Desktop/about.html">About</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://hungrygerald.com/wp-content/uploads/2014/05/09-kung-pao-chicken.jpg" alt="#chicken" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>宫保鸡丁(Kung Pao chicken)</h3>
+          <p>A spicy, stir-fried Chinese dish made with chicken, peanuts, vegetables, and chili peppers. The classic dish in Sichuan cuisine originated in the Sichuan Province of south-western China and includes Sichuan peppercorns. Although the dish is found throughout China, there are regional variations that are typically less spicy than the Sichuan serving. Kung Pao chicken is also a staple of westernized Chinese cuisine.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://static01.nyt.com/images/2017/11/22/dining/22OFF/25OFF-PRINT-superJumbo.jpg" alt="#hp" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>火锅(Hot pot)</h3>
+          <p>A Chinese cooking method, prepared with a simmering pot of soup stock at the dining table, containing a variety of East Asian foodstuffs and ingredients. While the hot pot is kept simmering, ingredients are placed into the pot and are cooked at the table. Typical hot pot dishes include thinly sliced meat, leaf vegetables, mushrooms, wontons, egg dumplings, tofu, and seafood. The cooked food is usually eaten with a dipping sauce.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="http://cdn.playbuzz.com/cdn/bbd135c1-650e-461e-ba37-989cb2822fd9/fc1a11b4-3516-401b-b6e1-72f81325b1e5.jpg" alt="#dx" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>点心(Dim sum)</h3>
+          <p>A style of Chinese cuisine (particularly Cantonese but also other varieties) prepared as small bite-sized portions of food served in small steamer baskets or on small plates. Dim sum dishes are usually served with tea and together form a full tea brunch. Dim sum traditionally are served as fully cooked, ready-to-serve dishes. In Cantonese teahouses, carts with dim sum will be served around the restaurant for diners to order from without leaving their seats.</p>
+        </div>      
+      </div>
+
+    
+    <div class="item">
+      <img src="https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-12.jpg" alt="#ddn" width="1200" height="700">
+      <div class="carousel-caption">
+        <h3>担担面(DanDan noodles)</h3>
+        <p>A Chinese cooking method, prepared with a simmering pot of soup stock at the dining table, containing a variety of East Asian foodstuffs and ingredients. While the hot pot is kept simmering, ingredients are placed into the pot and are cooked at the table. Typical hot pot dishes include thinly sliced meat, leaf vegetables, mushrooms, wontons, egg dumplings, tofu, and seafood. The cooked food is usually eaten with a dipping sauce.</p>
+      </div>      
+    </div>
+  </div>
+
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+</body>
+</html>
